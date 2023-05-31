@@ -9,6 +9,9 @@ import { FooterComponent } from './components/footer/footer.component';
 import { CreateQuoteComponent } from './components/quotes/create-quote/create-quote.component';
 import { FormsModule } from '@angular/forms';
 import { ListQuotesComponent } from './components/quotes/list-quotes/list-quotes.component';
+import { QuoteComponent } from './components/quotes/quote/quote.component';
+import { HttpClientModule } from '@angular/common/http';
+import { EditQuoteComponent } from './components/quotes/edit-quote/edit-quote.component';
 
 @NgModule({
   declarations: [
@@ -17,12 +20,15 @@ import { ListQuotesComponent } from './components/quotes/list-quotes/list-quotes
     HeaderComponent,
     FooterComponent,
     CreateQuoteComponent,
-    ListQuotesComponent
+    ListQuotesComponent,
+    QuoteComponent,
+    EditQuoteComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

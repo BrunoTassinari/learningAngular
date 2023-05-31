@@ -1,0 +1,16 @@
+{
+  "quotes": [
+    {
+      "id": 1,
+      "content": "The best way to predict the future is to create it.",
+      "author": "Abraham Lincoln",
+      "model": "modelo1"
+    },
+    {
+      "id": 2,
+      "content": "The best way to predict the future is to create it.",
+      "author": "Abraham Lincoln Eu",
+      "model": "modelo3"
+    }
+  ]
+}
